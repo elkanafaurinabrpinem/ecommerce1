@@ -54,6 +54,10 @@
 	margin-left: 90px;
 
 }
+.footer{
+	background-color: #000000;
+	padding: 120px;
+}
 </style>
 <body>
 	<div class="pembungkusatas">
@@ -70,6 +74,7 @@
 			<a href="">CHEK OUT</a>
 			<a href="">MY ACCOUNT</a>
 			<a href="">CONTACT</a>
+			<a href="">KATALOG</a>
 		</div>
 	</div>
 	<div class="bb">
@@ -97,10 +102,40 @@
 
 				<a href="" class="btn btn-primary">Buy</a>
 			</div>
-			
-
 		</div>
+		
 	</div> 
 	<?php }?>
+<section id="footer-bar">
+				<div class="row">
+					<div class="span3">
+						<h4>Navigation</h4>
+						<ul class="nav">
+							<li><a href="./index.html">Homepage</a></li>  
+							<li><a href="./about.html">About Us</a></li>
+							<li><a href="./contact.html">Contac Us</a></li>
+							<li><a href="./cart.html">Your Cart</a></li>
+							<li><a href="./register.html">Login</a></li>							
+						</ul>					
+					</div>
+					<div class="span4">
+						<h4>My Account</h4>
+						<ul class="nav">
+							<li><a href="#">My Account</a></li>
+							<li><a href="#">Order History</a></li>
+							<li><a href="#">Wish List</a></li>
+							<li><a href="#">Newsletter</a></li>
+						</ul>
+					</div>
+					
+						
+					</div>					
+				</div>	
+			</section>
+			<section id="PINEM">
+				<span><marquee><h3>Daptakan Voucer Rp.50.000 Untuk setiap Pembelian 2 Buah Heels dibulan November</h3></marquee></span>
+			</section>
+		</div>
 </body>
+
 </html>
